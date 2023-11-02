@@ -1,0 +1,23 @@
+{
+    "corpus_save_path" : "data/train_vocab.txt",
+    "corpus_load_path" : "data/ratings.txt",
+    "corpus_prefix" : "vocab/spm",
+    "pad_id" : 0,
+    "unk_id" : 1,
+    "bos_id" : 2,
+    "eos_id" : 3,
+    "vocab_size" : 15000,
+    "init_range": 1,
+
+    "model_type": "skip",
+    "data_path" : "data/data.",
+    "window_size": 5,
+
+    "model_name" : "best_model.pt",
+    "iter_point" : 1000,
+    "batch_size": 256,
+    "emb_size": 128,
+    "epochs" : 100,
+    "lr" : 0.025
+    
+}
